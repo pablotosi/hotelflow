@@ -1,0 +1,126 @@
+body{
+	font-size: 20px;
+	font-family: Open Sans,Arial,sans-serif;
+	font-weight: 600;
+	color: rgba(0,0,0,.6);
+    text-decoration: none;
+    display: block;
+	text-align: center;
+	background-image: url('../imagens/background.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	margin: 20px;
+}
+
+#barraDeBusca {
+    width: 90%;
+    display: inline-flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#barraDeBusca li{
+	margin: 1%;
+	padding: 1%
+}
+
+
+#label_logo{
+    font-size: 30px;
+    text-align: left;
+    line-height: 38px;
+}
+
+#campo{
+    border-radius: 26px;
+    outline-color: transparent;
+    outline-style: none;
+    height: 30px;
+    padding: 10px;
+}
+
+#botaoBusca{
+	color: white!important;
+    border-width: 0px!important;
+    border-color: rgba(255,255,255,0);
+    border-radius: 26px;
+    letter-spacing: 1px;
+    height: 30px;
+    background-color: #37b349;
+	width:100px;
+	cursor:pointer;
+}
+
+#botaoMostraFav{
+	color: white!important;
+    border-width: 0px!important;
+    border-color: rgba(255,255,255,0);
+    border-radius: 26px;
+    letter-spacing: 1px;
+    height: 30px;
+    background-color: blue;
+	width:100px;
+	cursor:pointer;
+}
+.botaoDeleta{
+	color: white!important;
+    border-width: 0px!important;
+    border-color: black;
+    border-radius: 26px;
+    letter-spacing: 1px;
+    background-color: black;
+	cursor:pointer;
+	opacity: 0.7;
+	position:absolute;
+	top: 2px;
+	right: 2px;
+}
+.botaoFav{
+	color: white!important;
+    border-width: 0px!important;
+    border-color: #37b349;
+    border-radius: 26px;
+    letter-spacing: 1px;
+    background-color: #37b349;
+    cursor: pointer;
+    opacity: 0.7;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+
+#aviso{
+    text-align: center;
+	color: #37b349;
+}
+#erro{
+    text-align: center;
+	color: #c70134;
+}
+
+#sortable {
+	list-style-type: none; 
+	margin: 0; 
+	padding: 0; 
+	width: 100%; 
+}
+#sortable li { 
+	padding: 0px;
+    margin-top: 0px;
+    margin-left: 3px;
+	position:relative;
+	float: left;  
+	text-align: center;
+	cursor: grab;
+	background: transparent;
+	border: none;
+}
+
+ul{
+	list-style-type: none; 
+}
+

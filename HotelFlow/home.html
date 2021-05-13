@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<!-- https://github.com/pablotosi/hotelflow.git -->
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+		<link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon" />
+		<link rel="icon" href="imagens/favicon.ico" type="image/x-icon" />
+		<title> Início </title>
+	</head>
+	<body>		
+		<ul id="Topo">
+			<li>
+				<image id="logo" src="imagens/logo.png" />
+			</li>
+			<li>
+				<label>
+					Seleção HotelFlow Front-End
+				</label>
+			</li>
+		</ul>
+		
+		<ul id="barraDeBusca">
+			<li>
+				<label id="label"> 
+					Busque seu gif aqui
+				</label>
+			</li>
+			
+			<li>
+				<input id="campo" type="text"></input>
+			</li>
+			<li>
+				<div id="div_botao">
+					<button id="botaoBusca" type="submit">
+						Buscar
+					</button>
+					<button id="botaoMostraFav" type="submit">
+						Favoritos
+					</button>
+				</div>
+			</li>
+		</ul>
+		
+		<p id="aviso"></p>
+		<p id="erro"></p>
+		
+		<div id="gifs" class="gifs"></div>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+	</body>
+</html>
